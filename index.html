@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form>
+    <label for="name">Imię</label><br>
+    <input type="text" name="name" id="name" required><br>
+
+    <label for="surname">Nazwisko</label><br>
+    <input type="text" name="surname" id="surname" required><br><br>
+
+    <input type="email" name="email" id="email" placeholder="podaj e-mail" required><br>
+
+    <label for="phoneNumber">Numer telefonu</label><br>
+    <input type="tel" id="phoneNumber" maxlength="9" required><br>
+
+    <label for="city">Wybierz miasto</label><br>
+    <select name="city" id="city">
+        <option value="Kraków" selected>Kraków</option>
+        <option value="Warszawa">Warszawa</option>
+        <option value="Gdańsk">Gdańsk</option>
+    </select><br><br>
+
+    <label for="gender">Wybierz płeć</label><br>
+    <input type="radio" name="choice" id="gender">Kobieta<br>
+    <input type="radio" name="choice">Mężczyzna<br><br>
+
+    <label for="agreement">Zgoda na wykorzystanie danych osobowych</label><br>
+    <input type="checkbox" name="agreement" id="agreement" required><br><br>
+
+    <label for="message">Zostaw wiadomość</label><br>
+    <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
+
+    <input type="submit" value="Wyślij">
+</form>
+</body>
+</html>
